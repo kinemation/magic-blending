@@ -1,0 +1,290 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cea8c2a1237b4b5b8bbfd16a4f12cc26, type: 3}
+  m_Name: MagicBlend_Robot_Torch
+  m_EditorClassIdentifier: 
+  rigAsset: {fileID: 11400000, guid: 13f109b1c7deda34ba3d20510dd41ebd, type: 2}
+  blendTime: 0.3
+  blendCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  basePose: {fileID: -203655887218126122, guid: c76a949ce3d5f2b44891b11e6631e9a8,
+    type: 3}
+  overlayPose: {fileID: -203655887218126122, guid: 79a2f845d4d877445b439e82aa4dca94,
+    type: 3}
+  isAnimation: 0
+  layeredBlends:
+  - layer:
+      chainName: LowerBody
+      elementChain:
+      - name: Skeleton
+        index: 0
+        isVirtual: 0
+      - name: Hips
+        index: 1
+        isVirtual: 0
+      - name: Left_UpperLeg
+        index: 2
+        isVirtual: 0
+      - name: Left_LowerLeg
+        index: 3
+        isVirtual: 0
+      - name: Left_Foot
+        index: 4
+        isVirtual: 0
+      - name: Left_Toes
+        index: 5
+        isVirtual: 0
+      - name: Left_ToesEnd
+        index: 6
+        isVirtual: 0
+      - name: Right_UpperLeg
+        index: 7
+        isVirtual: 0
+      - name: Right_LowerLeg
+        index: 8
+        isVirtual: 0
+      - name: Right_Foot
+        index: 9
+        isVirtual: 0
+      - name: Right_Toes
+        index: 10
+        isVirtual: 0
+      - name: Right_ToesEnd
+        index: 11
+        isVirtual: 0
+    baseWeight: 0.309
+    additiveWeight: 1
+    localWeight: 0
+  - layer:
+      chainName: Spine
+      elementChain:
+      - name: Spine
+        index: 12
+        isVirtual: 0
+      - name: Chest
+        index: 13
+        isVirtual: 0
+      - name: UpperChest
+        index: 14
+        isVirtual: 0
+    baseWeight: 1
+    additiveWeight: 0.94
+    localWeight: 0
+  - layer:
+      chainName: Head
+      elementChain:
+      - name: Neck
+        index: 39
+        isVirtual: 0
+      - name: Head
+        index: 40
+        isVirtual: 0
+    baseWeight: 1
+    additiveWeight: 0.784
+    localWeight: 0
+  - layer:
+      chainName: Arms
+      elementChain:
+      - name: Left_Shoulder
+        index: 15
+        isVirtual: 0
+      - name: Left_UpperArm
+        index: 16
+        isVirtual: 0
+      - name: Left_LowerArm
+        index: 17
+        isVirtual: 0
+      - name: Left_Hand
+        index: 18
+        isVirtual: 0
+      - name: Right_Shoulder
+        index: 45
+        isVirtual: 0
+      - name: Right_UpperArm
+        index: 46
+        isVirtual: 0
+      - name: Right_LowerArm
+        index: 47
+        isVirtual: 0
+      - name: Right_Hand
+        index: 48
+        isVirtual: 0
+    baseWeight: 1
+    additiveWeight: 1
+    localWeight: 0.623
+  - layer:
+      chainName: Fingers
+      elementChain:
+      - name: Left_IndexProximal
+        index: 19
+        isVirtual: 0
+      - name: Left_IndexIntermediate
+        index: 20
+        isVirtual: 0
+      - name: Left_IndexDistal
+        index: 21
+        isVirtual: 0
+      - name: Left_IndexDistalEnd
+        index: 22
+        isVirtual: 0
+      - name: Left_MiddleProximal
+        index: 23
+        isVirtual: 0
+      - name: Left_MiddleIntermediate
+        index: 24
+        isVirtual: 0
+      - name: Left_MiddleDistal
+        index: 25
+        isVirtual: 0
+      - name: Left_MiddleDistalEnd
+        index: 26
+        isVirtual: 0
+      - name: Left_PinkyProximal
+        index: 27
+        isVirtual: 0
+      - name: Left_PinkyIntermediate
+        index: 28
+        isVirtual: 0
+      - name: Left_PinkyDistal
+        index: 29
+        isVirtual: 0
+      - name: Left_PinkyDistalEnd
+        index: 30
+        isVirtual: 0
+      - name: Left_RingProximal
+        index: 31
+        isVirtual: 0
+      - name: Left_RingIntermediate
+        index: 32
+        isVirtual: 0
+      - name: Left_RingDistal
+        index: 33
+        isVirtual: 0
+      - name: Left_RingDistalEnd
+        index: 34
+        isVirtual: 0
+      - name: Left_ThumbProximal
+        index: 35
+        isVirtual: 0
+      - name: Left_ThumbIntermediate
+        index: 36
+        isVirtual: 0
+      - name: Left_ThumbDistal
+        index: 37
+        isVirtual: 0
+      - name: Left_ThumbDistalEnd
+        index: 38
+        isVirtual: 0
+      - name: Right_IndexProximal
+        index: 49
+        isVirtual: 0
+      - name: Right_IndexIntermediate
+        index: 50
+        isVirtual: 0
+      - name: Right_IndexDistal
+        index: 51
+        isVirtual: 0
+      - name: Right_IndexDistalEnd
+        index: 52
+        isVirtual: 0
+      - name: Right_MiddleProximal
+        index: 53
+        isVirtual: 0
+      - name: Right_MiddleIntermediate
+        index: 54
+        isVirtual: 0
+      - name: Right_MiddleDistal
+        index: 55
+        isVirtual: 0
+      - name: Right_MiddleDistalEnd
+        index: 56
+        isVirtual: 0
+      - name: Right_PinkyProximal
+        index: 57
+        isVirtual: 0
+      - name: Right_PinkyIntermediate
+        index: 58
+        isVirtual: 0
+      - name: Right_PinkyDistal
+        index: 59
+        isVirtual: 0
+      - name: Right_PinkyDistalEnd
+        index: 60
+        isVirtual: 0
+      - name: Right_RingProximal
+        index: 61
+        isVirtual: 0
+      - name: Right_RingIntermediate
+        index: 62
+        isVirtual: 0
+      - name: Right_RingDistal
+        index: 63
+        isVirtual: 0
+      - name: Right_RingDistalEnd
+        index: 64
+        isVirtual: 0
+      - name: Right_ThumbProximal
+        index: 65
+        isVirtual: 0
+      - name: Right_ThumbIntermediate
+        index: 66
+        isVirtual: 0
+      - name: Right_ThumbDistal
+        index: 67
+        isVirtual: 0
+      - name: Right_ThumbDistalEnd
+        index: 68
+        isVirtual: 0
+    baseWeight: 0
+    additiveWeight: 0
+    localWeight: 1
+  - layer:
+      chainName: LeftArm
+      elementChain:
+      - name: Left_Shoulder
+        index: 15
+        isVirtual: 0
+      - name: Left_UpperArm
+        index: 16
+        isVirtual: 0
+      - name: Left_LowerArm
+        index: 17
+        isVirtual: 0
+      - name: Left_Hand
+        index: 18
+        isVirtual: 0
+    baseWeight: 1
+    additiveWeight: 0.192
+    localWeight: 0
+  globalWeight: 1
