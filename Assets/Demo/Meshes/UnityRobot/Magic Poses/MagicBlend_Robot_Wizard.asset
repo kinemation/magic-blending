@@ -42,7 +42,13 @@ MonoBehaviour:
     type: 3}
   overlayPose: {fileID: -203655887218126122, guid: 73d4927231bc69949bb782472df47207,
     type: 3}
-  isAnimation: 0
+  overrideOverlays:
+  - overlay: {fileID: -203655887218126122, guid: 3a24dfa413f9dc14aaa5dd21510c3632,
+      type: 3}
+    mask: {fileID: 31900000, guid: 03623bead2d3b884da2d0f32bcf5d811, type: 2}
+    weight: 0
+  overlaySpeed: 1
+  isAnimation: 1
   layeredBlends:
   - layer:
       chainName: LowerBody
@@ -83,7 +89,8 @@ MonoBehaviour:
       - name: Right_ToesEnd
         index: 11
         isVirtual: 0
-    baseWeight: 0.3895717
+      isStandalone: 0
+    baseWeight: 0.586
     additiveWeight: 1
     localWeight: 0
   - layer:
@@ -98,8 +105,9 @@ MonoBehaviour:
       - name: UpperChest
         index: 14
         isVirtual: 0
-    baseWeight: 0.784
-    additiveWeight: 1
+      isStandalone: 0
+    baseWeight: 1
+    additiveWeight: 0.619
     localWeight: 0
   - layer:
       chainName: Head
@@ -110,9 +118,10 @@ MonoBehaviour:
       - name: Head
         index: 40
         isVirtual: 0
+      isStandalone: 0
     baseWeight: 1
-    additiveWeight: 1
-    localWeight: 0
+    additiveWeight: 0.535
+    localWeight: 1
   - layer:
       chainName: Arms
       elementChain:
@@ -140,9 +149,10 @@ MonoBehaviour:
       - name: Right_Hand
         index: 48
         isVirtual: 0
+      isStandalone: 0
     baseWeight: 1
-    additiveWeight: 1
-    localWeight: 0.61042786
+    additiveWeight: 0.354
+    localWeight: 0.436
   - layer:
       chainName: Fingers
       elementChain:
@@ -266,6 +276,7 @@ MonoBehaviour:
       - name: Right_ThumbDistalEnd
         index: 68
         isVirtual: 0
+      isStandalone: 0
     baseWeight: 0
     additiveWeight: 0
     localWeight: 1

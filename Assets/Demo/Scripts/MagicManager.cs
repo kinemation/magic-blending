@@ -1,5 +1,6 @@
 // Designed by KINEMATION, 2024.
 
+using System;
 using KINEMATION.MagicBlend.Runtime;
 using System.Collections.Generic;
 using UnityEngine;
@@ -78,6 +79,12 @@ namespace Demo.Scripts
             
             _items[0].SetVisibility(true);
             OnItemEquipped();
+        }
+
+        public void Update()
+        {
+            if(Input.GetKeyDown(KeyCode.RightArrow)) EquipForward();
+            if(Input.GetKeyDown(KeyCode.LeftArrow)) EquipBackward();
         }
 
         public void EquipForward()

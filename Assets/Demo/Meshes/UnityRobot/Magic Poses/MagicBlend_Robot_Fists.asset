@@ -42,6 +42,8 @@ MonoBehaviour:
     type: 3}
   overlayPose: {fileID: -203655887218126122, guid: 557c93fd12815d942894e2d06e5f79e5,
     type: 3}
+  overrideOverlays: []
+  overlaySpeed: 1
   isAnimation: 0
   layeredBlends:
   - layer:
@@ -83,6 +85,7 @@ MonoBehaviour:
       - name: Right_ToesEnd
         index: 11
         isVirtual: 0
+      isStandalone: 0
     baseWeight: 0.3895717
     additiveWeight: 1
     localWeight: 0
@@ -98,6 +101,7 @@ MonoBehaviour:
       - name: UpperChest
         index: 14
         isVirtual: 0
+      isStandalone: 0
     baseWeight: 1
     additiveWeight: 1
     localWeight: 0
@@ -110,6 +114,7 @@ MonoBehaviour:
       - name: Head
         index: 40
         isVirtual: 0
+      isStandalone: 0
     baseWeight: 1
     additiveWeight: 1
     localWeight: 0
@@ -140,9 +145,10 @@ MonoBehaviour:
       - name: Right_Hand
         index: 48
         isVirtual: 0
+      isStandalone: 0
     baseWeight: 1
     additiveWeight: 1
-    localWeight: 0.861
+    localWeight: 0.851
   - layer:
       chainName: Fingers
       elementChain:
@@ -266,7 +272,30 @@ MonoBehaviour:
       - name: Right_ThumbDistalEnd
         index: 68
         isVirtual: 0
+      isStandalone: 0
     baseWeight: 0
     additiveWeight: 0
     localWeight: 1
+  - layer:
+      chainName: Fingers
+      elementChain:
+      - name: IK_Elbow_Left
+        index: 69
+        isVirtual: 0
+      - name: IK_Elbow_Right
+        index: 70
+        isVirtual: 0
+      - name: ik_hand_gun
+        index: 71
+        isVirtual: 0
+      - name: IK_Hand_Left
+        index: 72
+        isVirtual: 0
+      - name: IK_Hand_Right
+        index: 73
+        isVirtual: 0
+      isStandalone: 0
+    baseWeight: 0
+    additiveWeight: 0
+    localWeight: 0
   globalWeight: 1
